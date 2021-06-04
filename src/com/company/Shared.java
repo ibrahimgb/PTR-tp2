@@ -3,6 +3,9 @@ package com.company;
 public class Shared
 {
     static int count = 0;
-    static float[][] matrix = new float[3][3];
-    static int[][] arr = new int[4][4];
+    public static int[][] arr1 = new int[5][5];
+    public static int[][] arr2 = new int[5][5];
+
+    public static int[][] arrRes = new int[5][5];
+
 }
