@@ -48,7 +48,7 @@ class Thread extends java.lang.Thread
                     java.lang.Thread.sleep(500);
                 }
             } catch (InterruptedException exc) {
-                
+
                 System.out.println(exc);
             }
 
